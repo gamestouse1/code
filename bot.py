@@ -9,10 +9,7 @@ from bs4 import BeautifulSoup
 
 # Security best practice: Use environment variables for sensitive tokens
 # If running locally, replace these with your actual tokens
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '7246965764:AAGnAahu5MUf5YTSjg4xPls13WHSqV90BBg')
-CHANNEL_ID = os.environ.get('CHANNEL_ID', '@shop_xpert')
-AMAZON_AFFILIATE_TAG = os.environ.get('AMAZON_AFFILIATE_TAG', 'getfreedeal77-21')
-FLIPKART_AFFILIATE_ID = os.environ.get('FLIPKART_AFFILIATE_ID', 'YOUR_FLIPKART_AFFILIATE_ID')
+
 
 bot = TeleBot(BOT_TOKEN)
 
